@@ -39,7 +39,12 @@ export const AppContainer = () => {
 
     const [inputs, setInputs]
         : [InputsProps, React.Dispatch<React.SetStateAction<InputsProps>>]
-        = useState<InputsProps>({initialInvestment: 0, annualInvestment: 0, expectedReturn: 0, duration: 0});
+        = useState<InputsProps>({
+        initialInvestment: "" as unknown as number,
+        annualInvestment: "" as unknown as number,
+        expectedReturn: "" as unknown as number,
+        duration: "" as unknown as number,
+        });
 
     const annualData: Array<AnnualDataProps> = deriveInvestmentResults(inputs);
     const handleInputChange = (e: any): void => {

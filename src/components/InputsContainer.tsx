@@ -15,6 +15,7 @@ export const InputsContainer = ({inputs, onChange}: InputsContainerProps): React
                 <p>
                     <label htmlFor="initial-investment">Initial Investment</label>
                     <input value={inputs.initialInvestment}
+                           placeholder={'12000'}
                            onChange={onChange}
                            required
                            min="0"
@@ -28,6 +29,7 @@ export const InputsContainer = ({inputs, onChange}: InputsContainerProps): React
                     <label htmlFor="annual-investment">Annual Investment</label>
                     <input required
                            min="0"
+                           placeholder={'600'}
                            value={inputs.annualInvestment}
                            onChange={onChange}
                            type="number"
@@ -38,10 +40,11 @@ export const InputsContainer = ({inputs, onChange}: InputsContainerProps): React
             </div>
             <div className="input-group">
                 <p>
-                    <label htmlFor="expected-return">Expected Return</label>
+                    <label htmlFor="expected-return">Expected Return (%) </label>
                     <input required
                            min="0"
                            value={inputs.expectedReturn}
+                           placeholder={'5.5'}
                            onChange={onChange}
                            type="number"
                            id="expected-return"
@@ -50,10 +53,11 @@ export const InputsContainer = ({inputs, onChange}: InputsContainerProps): React
                 </p>
 
                 <p>
-                    <label htmlFor="duration">Duration</label>
+                    <label htmlFor="duration">Duration (Years)</label>
                     <input required
                            min="0"
                            value={inputs.duration}
+                           placeholder={'10'}
                            onChange={onChange}
                            type="number"
                            id="duration"
