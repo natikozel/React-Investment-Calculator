@@ -1,46 +1,45 @@
-# Getting Started with Create React App
+## Live Demo
+**You can see the `React Investment Calculator` Live On:** [Here](https://natiinvest.netlify.app)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+# React Investment Calculator
 
-### `npm start`
+Welcome to the React Investment Calculator repository! This application provides a user-friendly interface to calculate potential investment returns. Built using React, this calculator allows users to estimate returns based on various investment parameters.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Key Features
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Simple Interface**: Offers an intuitive and easy-to-use interface for calculating potential investment returns.
+- **React Components**: Utilizes well-structured React components for modularity and maintainability.
+- **Precise Calculation**: Accurately calculates investment returns based on user-defined parameters.
+- **Flexible Inputs**: Allows users to input diverse investment details for comprehensive calculations.
+- **Responsive Design**: Ensures a responsive layout for seamless use on various devices.
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the repository**: `git clone https://github.com/natikozel/investment-calculator.git`
+2. **Navigate to the project directory**: `cd investment-calculator`
+3. **Install dependencies**: `npm install`
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run the Investment Calculator locally, after installing dependencies, start the application by running:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+```bash
+npm start
+```
+Access the game in your browser by visiting `http://localhost:3000`.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Contributing
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Contributions are welcome! If you'd like to improve the game or add new features, feel free to submit a pull request.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Contact
 
-## Learn More
+For any inquiries or feedback, feel free to contact [netanelkozel@gmail.com](mailto:netanelkozel@gmail.com).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Explore the potential returns on your investments with the React Investment Calculator!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
