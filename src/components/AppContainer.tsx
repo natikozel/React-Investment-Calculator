@@ -55,7 +55,9 @@ export const AppContainer = () => {
     return (
         <>
             <InputsContainer inputs={inputs} onChange={handleInputChange}/>
-            {annualData ? <ResultsContainer data={annualData}/> : null}
+            {annualData.length ? <ResultsContainer data={annualData}/> : <p className="center">
+                Please enter a duration greater than zero.
+            </p>}
         </>
     );
 };

@@ -24,8 +24,6 @@ export const InputsContainer = ({inputs, onChange}: InputsContainerProps): React
 
                     </input>
                 </p>
-            </div>
-            <div className="input-group">
                 <p>
                     <label htmlFor="annual-investment">Annual Investment</label>
                     <input required
@@ -38,7 +36,6 @@ export const InputsContainer = ({inputs, onChange}: InputsContainerProps): React
                     </input>
                 </p>
             </div>
-
             <div className="input-group">
                 <p>
                     <label htmlFor="expected-return">Expected Return</label>
@@ -51,9 +48,7 @@ export const InputsContainer = ({inputs, onChange}: InputsContainerProps): React
                            name="expectedReturn">
                     </input>
                 </p>
-            </div>
 
-            <div className="input-group">
                 <p>
                     <label htmlFor="duration">Duration</label>
                     <input required
